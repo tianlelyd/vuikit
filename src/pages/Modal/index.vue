@@ -1,27 +1,18 @@
 <template>
-  <div>
+  <vk-docs-layout-page>
     <modal-default></modal-default>
-    <modal-lightbox></modal-lightbox>
-    <modal-blank></modal-blank>
-    <modal-alert></modal-alert>
     <modal-confirm></modal-confirm>
-  </div>
+  </vk-docs-layout-page>
 </template>
 
 <script>
-import ModalDefault from './ModalDefault'
-import ModalLightbox from './ModalLightbox'
-import ModalBlank from './ModalBlank'
-import ModalAlert from './ModalAlert'
+import ModalDefault from './Modal'
 import ModalConfirm from './ModalConfirm'
 
 export default {
   name: 'PageModal',
   components: {
     ModalDefault,
-    ModalLightbox,
-    ModalBlank,
-    ModalAlert,
     ModalConfirm
   }
 }

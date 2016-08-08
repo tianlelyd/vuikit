@@ -8,16 +8,11 @@ import Calendar from './Calendar'
 import Datepicker from './Datepicker'
 import Dropdown from './Dropdown'
 import Filter from './Filter'
-// import Modal from './Modal'
-// import ModalLightbox from './ModalLightbox'
-// import ModalBlank from './ModalBlank'
-// import ModalAlert from './ModalAlert'
-// import ModalConfirm from './ModalConfirm'
+import Modal from './Modal'
 import Pagination from './Pagination'
 import Picker from './Picker'
 import Progress from './Progress'
-// import Subnav from './Subnav'
-// import SubnavItem from './SubnavItem'
+import Subnav from './Subnav'
 // import Switcher from './Switcher'
 // import Switch from './SwitcherItem'
 import Table from './Table'
@@ -37,16 +32,11 @@ const Vuikit = {
   Datepicker,
   Dropdown,
   Filter,
-  // Modal,
-  // ModalLightbox,
-  // ModalBlank,
-  // ModalAlert,
-  // ModalConfirm,
+  Modal,
   Pagination,
   Picker,
   Progress,
-  // Subnav,
-  // SubnavItem,
+  Subnav,
   // Switcher,
   // Switch,
   Table,

@@ -27,10 +27,10 @@ export default {
     name: 'Filter',
     component: require('./pages/Filter')
   },
-  // '/modal': {
-  //   name: 'Modal',
-  //   component: require('./pages/Modal')
-  // },
+  '/modal': {
+    name: 'Modal',
+    component: require('./pages/Modal')
+  },
   '/pagination': {
     name: 'Pagination',
     component: require('./pages/Pagination')
@@ -43,10 +43,10 @@ export default {
     name: 'Progress',
     component: require('./pages/Progress')
   },
-  // '/subnav': {
-  //   name: 'Subnav',
-  //   component: require('./pages/Subnav')
-  // },
+  '/subnav': {
+    name: 'Subnav',
+    component: require('./pages/Subnav')
+  },
   // '/switcher': {
   //   name: 'Switcher',
   //   component: require('./pages/Switcher')
